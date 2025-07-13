@@ -10,3 +10,6 @@ def count_char(text):
             chars[char.lower()] = 1
     return chars
 
+def sort_dict(d):
+    d.sort()
+    return d
